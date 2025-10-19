@@ -32,7 +32,9 @@ public class Button {
            String expected=  wait.until(ExpectedConditions.elementToBeClickable(cart)).getText();
             System.out.println(expected);
             Assert.assertTrue(true);
+
         }
+        driver.quit();
 
 
     }
